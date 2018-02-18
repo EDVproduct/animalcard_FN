@@ -1,0 +1,90 @@
+/*Uses spacing between animal’s name, image, and information.*/
+img{
+	background-color: #fdfbed;
+	width:300px;
+	/*Uses spacing between animal’s name, image, and information.--1--*/
+	margin:30px;
+	opacity: 0.6;
+    filter: alpha(opacity=60);
+    /*Uses border around animal’s image,*/
+    border: 3px groove #becddd;
+}
+img:hover{
+	opacity: 0.8;
+    filter: alpha(opacity=80);
+}
+/*The text is italicized for the animal’s interesting fact.*/
+p.italic{
+	font-style: italic;
+}
+/*The labels are bolded for the animal’s list items.*/
+.bold{
+	font-weight:bold;
+}
+/*Card width should be fixed and include the spacing around the image (Since image is 300px wide, card should be 300px + spacing on either side. Card should not expand with the browser window).*/
+.card{
+	background-image:url("rate.svg") ;
+	font-family: 'Jaldi', sans-serif;
+	width:360px;
+	/*Uses spacing between animal’s name, image, and information.--2--*/
+	margin:30px;
+	border: 1px groove #becddd;
+	box-shadow: 2px 3px #bbdaf5; 
+}
+#card:hover{
+	background-image: url("rate.svg");
+}
+#info,#general{
+/*Uses border around animal’s information.
+Uses border around animal’s information (interesting fact, list items, and description).*/
+	border: 12px dashed #bbdaf557;
+}
+#info{
+	font-size:large;
+	background-color: #fdfbed7d;
+ }
+p{
+	width:300px;
+	/*Uses spacing between animal’s name, image, and information.--3--*/
+	padding:15px;
+	margin-top: 0px;
+}
+#name{
+	/*Uses border around animal’s name*/
+	border: 1px solid #becddd;
+	width:360px;
+	font-family: 'Neucha', cursive;
+	text-align: center;
+	color: #6eb9ff;
+}
+#name:hover{
+	background-color: #fdedd5;
+}
+ul{
+	width:300px;
+	margin: 15px;
+	padding: 5px;
+	/*The dots are removed from the animal's list items.*/
+	list-style-type:none;
+}
+li{
+	/*Uses border around animal’s information  list items*/
+	border: 1px groove #becddd;
+	padding: 10px;
+	margin: 7px;
+	background-color: #fdfbed;
+	opacity: 0.6;
+    filter: alpha(opacity=60);
+}
+li:hover{
+	background-color: #fdedd5;
+	box-shadow: 2px 3px #bbdaf5;
+	font-size: larger;
+}
+.anex{
+	color: #ff4f4f;
+	font-size: x-small;
+}
+.anex:hover{
+	font-size: small;
+}
