@@ -60,14 +60,14 @@ p{
 #name:hover{
 	background-color: #fdedd5;
 }
-ul{
-	width:300px;
+.animal {
+	width: 300px;
 	margin: 15px;
 	padding: 5px;
 	/*The dots are removed from the animal's list items.*/
 	list-style-type:none;
 }
-li{
+.fact {
 	/*Uses border around animal’s information  list items*/
 	border: 1px groove #becddd;
 	padding: 10px;
@@ -76,7 +76,7 @@ li{
 	opacity: 0.6;
     filter: alpha(opacity=60);
 }
-li:hover{
+.fact:hover{
 	background-color: #fdedd5;
 	box-shadow: 2px 3px #bbdaf5;
 	font-size: larger;
